@@ -1,0 +1,122 @@
+@import "normalize.min.less";
+@import "colors.less";
+@import "mixins.less";
+
+/****************************
+GENERAL STYLES
+****************************/
+
+@baseFontSize: 1em;
+*, *:before, *:after {
+    .boxSizing;
+}
+body {
+    background: @lightGrey;
+    color: @darkGrey;
+    font-size: @baseFontSize;
+}
+
+.section-wrap {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: .5% 4% 4%;
+}
+.h2 {
+	font-size: @baseFontSize * 1.5;
+}
+
+.h4 {
+    margin-top: 39px;
+    font-size: @baseFontSize * 1.2;
+}
+
+.col {
+    //width: 566px;
+    width:49%;
+    display: inline-block;
+    vertical-align: top;
+}
+.col1 {
+   width:60%;
+}
+.col2 {
+    width:39%;
+}
+
+
+/****************************
+CURRENT ORDERS
+****************************/
+
+.current-orders {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.current-order-single {
+    background: @mediumGrey;
+    margin: 8px 0;
+    padding: 13px;
+    width: 100%;
+    max-width: 430px;
+    .roundedCorners(10px);
+}
+
+.cross {
+    float: right;
+    font-size: @baseFontSize * 2.6;
+    position: relative;
+    line-height:.4em;
+    top: 8px;
+    cursor:pointer;
+}
+
+/****************************
+ADD ORDER
+****************************/
+.add-order-p {
+    margin: 9px 0;
+}
+
+.add-order-label {
+	width:52px;
+	display:inline-block;
+}
+
+#add-order {
+    background: @mediumGreen;
+    color: #fff;
+    border: 2px solid @darkGreen;
+    padding: 10px;
+    .roundedCorners();
+}
+.add-order-input {
+	.roundedCorners();
+	border: 1px solid @mediumGrey;
+}
+.add-order-error {
+    height:18px;
+    margin-top:3px;
+    display:block;
+    color:#ff0000;
+}
+
+@media only all and (max-width: 1024px){
+    .col, .h2 {
+        width:100%;
+        max-width:477px;
+        display:block;
+    }
+    .h2 {
+        margin: 20px auto;
+    }
+    .col {
+        margin:0 auto;
+    }
+    
+    .col1 {
+
+    }
+
+}

@@ -1,0 +1,292 @@
+img,
+legend {
+  border: 0;
+}
+legend,
+td,
+th {
+  padding: 0;
+}
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+optgroup,
+strong {
+  font-weight: 700;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre,
+textarea {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type=checkbox],
+input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.boxSizing {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/****************************
+GENERAL STYLES
+****************************/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background: #F4F5F5;
+  color: #272a2a;
+  font-size: 1em;
+}
+.section-wrap {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: .5% 4% 4%;
+}
+.h2 {
+  font-size: 1.5em;
+}
+.h4 {
+  margin-top: 39px;
+  font-size: 1.2em;
+}
+.col {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+.col1 {
+  width: 60%;
+}
+.col2 {
+  width: 39%;
+}
+/****************************
+CURRENT ORDERS
+****************************/
+.current-orders {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.current-order-single {
+  background: #e4e6e6;
+  margin: 8px 0;
+  padding: 13px;
+  width: 100%;
+  max-width: 430px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+.cross {
+  float: right;
+  font-size: 2.6em;
+  position: relative;
+  line-height: .4em;
+  top: 8px;
+  cursor: pointer;
+}
+/****************************
+ADD ORDER
+****************************/
+.add-order-p {
+  margin: 9px 0;
+}
+.add-order-label {
+  width: 52px;
+  display: inline-block;
+}
+#add-order {
+  background: #5aad55;
+  color: #fff;
+  border: 2px solid #2F4C27;
+  padding: 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+.add-order-input {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border: 1px solid #e4e6e6;
+}
+.add-order-error {
+  height: 18px;
+  margin-top: 3px;
+  display: block;
+  color: #ff0000;
+}
+@media only all and (max-width: 1024px) {
+  .col,
+  .h2 {
+    width: 100%;
+    max-width: 477px;
+    display: block;
+  }
+  .h2 {
+    margin: 20px auto;
+  }
+  .col {
+    margin: 0 auto;
+  }
+}
