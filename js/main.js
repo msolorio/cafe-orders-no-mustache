@@ -17,7 +17,7 @@ $(function() {
                 $currentOrders.append(
                     '<li class="current-order-single">Name: ' +
                     oldOrder.name +
-                    ', ' +
+                    ', Item: ' +
                     oldOrder.item +
                     '<span class="cross" data-id="' +
                     oldOrder.id +
